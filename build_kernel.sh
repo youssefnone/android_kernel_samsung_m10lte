@@ -16,6 +16,6 @@ make -j40
 # final format AK
 mv arch/arm64/boot/Image AK/
 cd AK
-zip kernel.zip *
+zip -r kernel.zip *
 mv kernel.zip ..
 cd ..
